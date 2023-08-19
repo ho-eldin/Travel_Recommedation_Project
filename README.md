@@ -31,7 +31,7 @@ Time Complexity: O(numCities * budget * h), where numCities is the number of cit
 city. The function utilizes dynamic programming to solve the problem. It iterates over each city and budget combination, and for each combination, it check the hotels' prices in the specific city.
 * Backtracking to find recommended cities:
 Time Complexity: O(numCities * budget * h), where numCities is the number of cities, budget is the user's budget, and h is the average number of hotels per city. The backtracking process involves iterating over each city and budget combination to find the recommended cities and remaining budget.
-Taking user input and displaying recommendations:
+* Taking user input and displaying recommendations:
 Time Complexity: O(1). The time complexity of taking user input and displaying recommendations is considered constant time, as it does not depend on the size of the input or the number of recommendations.
 
 ### In terms of techniques used, the code implements the following:
